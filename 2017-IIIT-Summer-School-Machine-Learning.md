@@ -1,6 +1,6 @@
 # 20170710
 
-## C. V. Jawahar - Intro to Deep Learning and Optimization (09:30 to 11:00)
+## [C. V. Jawahar](https://faculty.iiit.ac.in/~jawahar/) - Intro to Deep Learning and Optimization (09:30 to 11:00)
 
 - SVM
 
@@ -32,7 +32,7 @@
 
 
 
-## Vineeth Balasubramanian - Backprop and Gradient Descent (11:30 to 13:00)
+## [Vineeth Balasubramanian](http://www.iith.ac.in/~vineethnb/index.html) - Backprop and Gradient Descent (11:30 to 13:00)
 
 - Loss function from $J$ and $W_{i, j}$
 
@@ -116,7 +116,7 @@
     - Compute the Gradient Delta from loss at the weights updated by the previous gradient delta, then combine this Gradient Delta with the previous gradient delta
     - Somehow works better than just momentum
 
-## Vineeth Balasubramanian - Backprop and Gradient Descent (13:30 to 13:30)
+## Vineeth Balasubramanian - Backprop and Gradient Descent (13:30 to 15:30)
 
 - There is an optimal learning rate with which one can reach the global minimum in one step. It is equal to the inverse of the double derivative at the point from which we start
 
@@ -314,7 +314,7 @@ $${\delta}w = -\frac{f’(x_{0}}{f’’(x_{0})}$$
 
 # 20170711
 
-## Girish Varma - RNNs (09:30 to 10:30)
+## [Girish Varma](https://www.iiit.ac.in/people/faculty/girish.varma/) - RNNs (09:30 to 10:30)
 
 - RNNs
 
@@ -358,7 +358,8 @@ $$h_{t} = z_{t} .* h_{t-1} + (1 - z_{t}) .* hh_{t}$$
 
 ### Stacking RNNs
 
-## Ankush Gupta (Oxford) - More on RNNs (11:00 to 12:30)
+
+## [Ankush Gupta](www.robots.ox.ac.uk/~ankush/) (Oxford) - More on RNNs (11:00 to 12:30)
 
 - Many flavours of Sequence-to-Sequence problems
 
@@ -447,7 +448,7 @@ $$h_{t} = z_{t} .* h_{t-1} + (1 - z_{t}) .* hh_{t}$$
     - Quote/comment cell
     - Code depth cell (indentation)
 
-## Ankush Gupta (Oxford) - More on RNNs (13:30 to 15:00)
+## [Ankush Gupta](www.robots.ox.ac.uk/~ankush/) (Oxford) - More on RNNs (13:30 to 15:00)
 
 ### ATTENTION MECHANISM
 
@@ -477,7 +478,7 @@ $$h_{t} = z_{t} .* h_{t-1} + (1 - z_{t}) .* hh_{t}$$
 - Finds alignment between input and outputs (through attention also)
 
 
-## Girish Varma - RNNs (14:00 to 15:00)
+## [Girish Varma](https://www.iiit.ac.in/people/faculty/girish.varma/) - RNNs (14:00 to 15:00)
 
 ### SCENE TEXT
 
@@ -517,7 +518,7 @@ $$h_{t} = z_{t} .* h_{t-1} + (1 - z_{t}) .* hh_{t}$$
 
 # 20170712
 
-## Sujit Gujar, IIIT Hyderabad - Introduction to Game Theory (09:00 to 10:30)
+## [Sujit Gujar](https://www.iiit.ac.in/people/faculty/sujit.g/), IIIT Hyderabad - Introduction to Game Theory (09:00 to 10:30)
 
 - Game Theory: mathematical model of conflict
 
@@ -560,7 +561,7 @@ $$h_{t} = z_{t} .* h_{t-1} + (1 - z_{t}) .* hh_{t}$$
 
 
 
-## Vinay Namboodiri, IIT Kanpur - GANs - I (11:00 to 12:30)
+## [Vinay Namboodiri](https://www.cse.iitk.ac.in/users/vinaypn/), IIT Kanpur - GANs - I (11:00 to 12:30)
 
 - Problem to solve: unsupervised learning of (visual) representations
 
@@ -649,7 +650,7 @@ $$ J^{(G)} =  - {\frac{1}{2}}E_{z} log D(G(z) $$
 
 
 
-## Vinay Namboodiri, IIT Kanpur - GANs - II (13:30 to 14:30)
+## [Vinay Namboodiri](https://www.cse.iitk.ac.in/users/vinaypn/), IIT Kanpur - GANs - II (13:30 to 14:30)
 
 ### [Unrolled GANs](https://arxiv.org/abs/1611.02163)
 
@@ -721,7 +722,7 @@ $$ J^{(G)} =  - {\frac{1}{2}}E_{z} log D(G(z) $$
 
 # 20170713
 
-## Kaushik Mitra, IIT Madras - Variational Inference and Autoencoders (09:00 to 10:30)
+## [Kaushik Mitra](http://www.ee.iitm.ac.in/kmitra/), IIT Madras - Variational Inference and Autoencoders (09:00 to 10:30)
 
 ### AUTOENCODERS
 
@@ -776,7 +777,7 @@ $$ J^{(G)} =  - {\frac{1}{2}}E_{z} log D(G(z) $$
 
 
 
-## Vineeth Balasubramanian - VAE (11:00 to 12:30)
+## [Vineeth Balasubramanian](http://www.iith.ac.in/~vineethnb/) - VAE (11:00 to 12:30)
 
 ### VARIATIONAL AUTO-ENCODER
 
@@ -857,7 +858,7 @@ $$ p_{\theta}(z | x) = {\frac{p_{\theta}(x | z) * p_{\theta}(z)}{p_{]theta}(x)}}
 
 
 
-## Vineeth Balasubramanian - VAE (13:30 to 14:30)
+## [Vineeth Balasubramanian](http://www.iith.ac.in/~vineethnb/) - VAE (13:30 to 14:30)
 
 ### Recurrent VAE
 
@@ -919,7 +920,7 @@ $$ p_{\theta}(z | x) = {\frac{p_{\theta}(x | z) * p_{\theta}(z)}{p_{]theta}(x)}}
 
 # 20170714
 
-## Ravindran Balaraman, IIT Madras - Deep RL - I (09:00 to 12:00)
+## [Ravindran Balaraman](http://www.cse.iitm.ac.in/~ravi/), IIT Madras - Deep RL - I (09:00 to 12:00)
 
 - [Sutton and Barto’s book](http://people.inf.elte.hu/lorincz/Files/RL_2006/SuttonBook.pdf)
 
@@ -1029,7 +1030,7 @@ The alpha-term is called Temporal Difference error (TD Error).
 
 
 
-## Tejas Kulkarni, Google Deep Mind - Deep RL - I (12:00 to 14:00)
+## [Tejas Kulkarni](https://tejasdkulkarni.github.io/), Google Deep Mind - Deep RL - I (12:00 to 14:00)
 
 - Fundamentals, Value-based Deep RL, Policy-based Deep RL, Temporal Abstractions in Deep RL, Frontiers
 
@@ -1075,9 +1076,11 @@ The alpha-term is called Temporal Difference error (TD Error).
      - Have deep values as well
 
 - Hierarchical DQN
+
+
 # 20170715
 
-## Mitesh Khapra, IIT Madras - Deep Learning for Word Embeddings
+## [Mitesh Khapra](http://www.cse.iitm.ac.in/~miteshk/), IIT Madras - Deep Learning for Word Embeddings
 
 - “You shall know a word by the company it keeps” - Firth., J. R. 1957:11
 
@@ -1112,7 +1115,7 @@ The alpha-term is called Temporal Difference error (TD Error).
 
 
 
-## Girish Varma, IIIT Hyderabad - Model Compression (11:10 to 12:30)
+## [Girish Varma](https://www.iiit.ac.in/people/faculty/girish.varma/), IIIT Hyderabad - Model Compression (11:10 to 12:30)
 
 - Reduce memory usage by:
     - Compressing matrices: using sparse matrices, quantization
